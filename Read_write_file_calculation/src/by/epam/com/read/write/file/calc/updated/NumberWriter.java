@@ -39,7 +39,7 @@ public class NumberWriter {
 	}
 
 	private String format(Data d) {
-		return d.getNumber1() + " " + d.getSign().toString() + " " + d.getNumber2() + "=" + d.getResult();
+		return d.getNumber1() + " " + d.getSign().getSign() + " " + d.getNumber2() + "=" + d.getResult();
 	}
 
 }
